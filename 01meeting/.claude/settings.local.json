@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cp \"C:\\\\02 Claude\\\\02 Code\\\\TRAINING_TRACKER_*.md\" \"C:\\\\02 Claude\\\\02 Code\\\\training-tracker\\\\docs\\\\\" 2>/dev/null || mkdir -p \"C:\\\\02 Claude\\\\02 Code\\\\training-tracker\\\\docs\" && cp \"C:\\\\02 Claude\\\\02 Code\\\\TRAINING_TRACKER_*.md\" \"C:\\\\02 Claude\\\\02 Code\\\\training-tracker\\\\docs\\\\\")",
+      "Bash(cmd /c mkdir meeting-intelligence-assistant)",
+      "Bash(timeout 30 python -m uvicorn app.main:app --host 127.0.0.1 --port 8000)",
+      "Bash(curl -s http://127.0.0.1:8000/health)",
+      "Bash(python -m json.tool)",
+      "Bash(curl -s http://127.0.0.1:8000/api/v1/status)",
+      "Bash(curl -s http://127.0.0.1:8000/api/v1/meetings/)",
+      "Bash(pkill -f \"uvicorn\")",
+      "PowerShell(pip install python-multipart requests -q)"
+    ]
+  }
+}

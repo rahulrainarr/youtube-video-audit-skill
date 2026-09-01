@@ -1,0 +1,64 @@
+# Core Framework
+fastapi==0.104.1
+uvicorn==0.24.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# Database (SQLite3 is built-in to Python - no separate package needed)
+sqlalchemy==2.0.23
+alembic==1.13.1
+
+# Frontend
+streamlit==1.31.1
+streamlit-option-menu==0.3.12
+
+# Transcription
+faster-whisper==0.10.0
+openai==1.3.9
+
+# Audio Processing
+pydub==0.25.1
+librosa==0.10.0
+scipy==1.11.4
+numpy==1.24.3
+
+# File Processing
+python-docx==0.8.11
+openpyxl==3.1.2
+markdown==3.5.1
+
+# Utilities
+python-dotenv==1.0.0
+click==8.1.7
+requests==2.31.0
+aiofiles==23.2.1
+python-multipart==0.0.6
+
+# Logging
+python-json-logger==2.0.7
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+pytest-mock==3.12.0
+responses==0.24.1
+
+# Development
+black==23.12.0
+flake8==6.1.0
+mypy==1.7.0
+isort==5.13.2
+
+# Async
+aiohttp==3.9.1
+anyio==4.1.0
+
+# Optional packages (uncomment as needed)
+# torch==2.0.1  # For GPU support
+# pyannote-audio==2.1.1  # For speaker diarization (requires torch)
+# reportlab==4.0.9  # For PDF export
+# weasyprint==59.3  # For PDF export
+# azure-identity==1.14.0  # For Teams integration
+# msgraph-core==0.2.2  # For Teams integration
+# pywin32==305  # For Windows-specific features
