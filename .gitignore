@@ -1,0 +1,57 @@
+# Operating System
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE & Editor
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Claude Code
+.claude/settings.local.json
+.claude/cache/
+
+# Temporary/scratch
+scratch/
+temp/
+tmp/
+
+# Local environment
+.env.local
+.env.*.local
